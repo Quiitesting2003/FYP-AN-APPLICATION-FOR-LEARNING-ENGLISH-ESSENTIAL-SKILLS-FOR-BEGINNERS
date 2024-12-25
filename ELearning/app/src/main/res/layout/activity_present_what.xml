@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Present.PresentWhatActivity">
+
+    <!-- A container LinearLayout to hold all the content inside the ScrollView -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Title for the Simple Present Tense -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Simple Present Tense"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Explanation of the Simple Present Tense -->
+        <TextView
+            android:id="@+id/explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The simple present tense is used to describe actions or situations that are habitual, general truths, or facts that are always true. It can also express routines, preferences, or schedules."
+            android:textSize="16sp"
+            android:layout_marginBottom="13dp"/>
+
+        <!-- Key uses section -->
+        <TextView
+            android:id="@+id/key_uses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key uses of the simple present:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Habitual actions explanation -->
+        <TextView
+            android:id="@+id/habitual_actions"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="• Habitual actions: Things that happen regularly.\n\nExample: I go to the gym every morning."
+            android:textSize="14sp" />
+
+        <!-- General truths explanation -->
+        <TextView
+            android:id="@+id/general_truths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• General truths: Facts that are always true or universally accepted.\n\nExample: The sun rises in the east."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Permanent situations explanation -->
+        <TextView
+            android:id="@+id/permanent_situations"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="• Permanent situations: Situations that do not change.\n\nExample: She lives in New York."
+            android:textSize="14sp" />
+
+        <!-- Scheduled events explanation -->
+        <TextView
+            android:id="@+id/scheduled_events"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="• Scheduled events: Timetables or fixed plans.\n\nExample: The train leaves at 6 PM."
+            android:textSize="14sp" />
+
+        <!-- Structure of the simple present tense -->
+        <TextView
+            android:id="@+id/structure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Structure:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Positive sentence example -->
+        <TextView
+            android:id="@+id/positive_example"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Positive: Subject + base form of the verb (with an 's' or 'es' for he, she, or it)\n\nExample: She works in an office."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Negative sentence example -->
+        <TextView
+            android:id="@+id/negative_example"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Negative: Subject + do/does + not + base form of the verb\n\nExample: They do not like coffee."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Question sentence example -->
+        <TextView
+            android:id="@+id/question_example"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="• Question: Do/Does + subject + base form of the verb?\n\nExample: Do you play football?"
+            android:textSize="14sp" />
+
+        <!-- Image for the Present Simple Tense -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/present_simple" />
+
+        <!-- Buttons for Back and Continue -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/nextPresent"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#0b62f5"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/backPresent"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Continue"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#ff5733"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

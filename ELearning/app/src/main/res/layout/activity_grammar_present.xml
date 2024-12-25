@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DBoard.GrammarPresentActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/grpr_back"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#0b62f5"
+            android:textSize="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grammar time today!?"
+            android:textSize="22.5dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+
+        <!-- Lesson -->
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="23dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/gm_presentSimple"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Lesson 1: Simple Present"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:backgroundTint="#0b62f5"
+                android:fontFamily="times" />
+
+            <ImageView
+                android:id="@+id/voc_heart_one"
+                android:layout_width="34dp"
+                android:layout_height="49dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/black_heart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="23dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/gm_presentProg"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Lesson 2: Simple Present Progressive"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:backgroundTint="#0b62f5"
+                android:fontFamily="times" />
+
+            <ImageView
+                android:id="@+id/voc_heart_two"
+                android:layout_width="34dp"
+                android:layout_height="49dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/black_heart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="23dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/gm_presentPer"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Lesson 3: Simple Present Perfect"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:backgroundTint="#0b62f5"
+                android:fontFamily="times" />
+
+            <ImageView
+                android:id="@+id/voc_heart_three"
+                android:layout_width="34dp"
+                android:layout_height="49dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/black_heart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="23dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/gm_presentPerProg"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Lesson 4: Simple Present Perfect Progressive"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:backgroundTint="#0b62f5"
+                android:fontFamily="times" />
+
+            <ImageView
+                android:id="@+id/voc_heart_four"
+                android:layout_width="34dp"
+                android:layout_height="49dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/black_heart" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

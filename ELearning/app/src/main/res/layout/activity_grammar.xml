@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DBoard.GrammarActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/gr_back"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#0b62f5"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grammar.!"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Choose the grammar"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <Button
+            android:id="@+id/simple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Simple Tense"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <Button
+            android:id="@+id/past"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Past Tense"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <Button
+            android:id="@+id/future"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Future Tense"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

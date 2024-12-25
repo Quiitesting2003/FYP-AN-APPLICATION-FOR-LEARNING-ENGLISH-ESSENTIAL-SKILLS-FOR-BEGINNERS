@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#84d1d9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Viet.Intro1VnActivity">
+
+    <Button
+        android:id="@+id/intro1_vn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="right"
+        android:text="Bỏ Qua"
+        android:backgroundTint="#0b62f5"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="453dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/intro1_pic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Học Trực Tuyến"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Một cách mới để tương tác với các lớp học trực tuyến tuyệt vời"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/intro1_vn_next"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:src="@drawable/next_button"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
+
+

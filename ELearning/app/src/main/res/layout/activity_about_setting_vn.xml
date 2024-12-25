@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f2ef"
+    tools:context=".VietHomePage.AboutSettingVnActivity">
+
+    <Button
+        android:id="@+id/setting_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0b62f5"
+        android:text="Quay lại"
+        android:textSize="12sp" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cài đặt!"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/contact_hotline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Ngôn ngữ"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/language_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:textOff="VI"
+            android:textOn="EN"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/contact_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Hệ thống"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:textOff="Light"
+            android:textOn="Dark"
+            android:checked="false"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/setting_dk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Điều khoản"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Phiên bản 1.0.0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

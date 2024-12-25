@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.ChooseFieldActivity"
+    android:background="#F3F8FF"
+    android:padding="13dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose The Fields That You Are Interested In"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Programming"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Art"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Literature"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Fitness"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Clothes"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Marketing"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Biology"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Medical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Family"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="School"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Language"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Physics"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Life"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Technology"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Physics"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Life"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginRight="15dp"
+            android:text="Technology"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/field_continue_button"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/continue_button"/>
+
+
+
+
+</LinearLayout>

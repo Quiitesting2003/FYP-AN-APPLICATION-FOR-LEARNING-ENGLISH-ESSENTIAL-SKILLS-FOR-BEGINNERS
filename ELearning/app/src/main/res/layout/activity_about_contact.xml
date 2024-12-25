@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f2ef"
+    tools:context=".HomePage.AboutContactActivity">
+
+    <Button
+        android:id="@+id/contact_back"
+        android:layout_width="76dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#0b62f5"
+        android:text="Back"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contact Us!"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:src="@drawable/telephone" />
+
+        <TextView
+            android:id="@+id/contact_hotline"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Hotline"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/contact_email"
+            android:layout_width="167dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:paddingStart="60dp"
+            android:text="Email"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="276dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_home"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:src="@drawable/help" />
+
+        <TextView
+            android:id="@+id/contact_faq"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:paddingStart="70dp"
+            android:text="FAQ"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+</LinearLayout>

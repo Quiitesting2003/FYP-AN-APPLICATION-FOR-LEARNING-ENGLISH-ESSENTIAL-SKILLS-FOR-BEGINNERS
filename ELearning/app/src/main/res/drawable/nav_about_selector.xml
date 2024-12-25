@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Khi mục được chọn, áp dụng màu xanh dương -->
+    <item android:drawable="@drawable/about" android:tint="#3485fb" android:state_selected="true" />
+    <!-- Khi mục không được chọn, áp dụng màu mặc định hoặc không đổi màu -->
+    <item android:drawable="@drawable/about" android:state_selected="false" />
+    <!-- Mặc định màu không đổi -->
+    <item android:drawable="@drawable/about" />
+</selector>

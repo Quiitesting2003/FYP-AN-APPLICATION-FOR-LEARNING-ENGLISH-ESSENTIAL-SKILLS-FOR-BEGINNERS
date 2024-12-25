@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    tools:context=".DBoard.InsidePronunciationActivity">
+
+
+    <Button
+        android:id="@+id/inPro_back"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0b62f5"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/inPro_ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Question"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/translate_spinner_background"
+        android:elevation="3dp"
+        android:hint="Translated text here"
+        android:letterSpacing="0.03"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/tvVoice"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/ic_voice"
+        android:contentDescription="Voice Input"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/tvButton"
+        android:layout_width="168dp"
+        android:layout_height="78dp"
+        android:text="Check Answer"
+        android:layout_marginTop="35dp"
+        android:textSize="18sp"
+        android:backgroundTint="#0b62f5"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_green_tick" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Correct"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/wrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_wrong"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Wrong"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressPro_Bar"
+        android:layout_marginTop="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/inPro_share"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#0b62f5"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/inPro_next"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginLeft="181dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#ff5733"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

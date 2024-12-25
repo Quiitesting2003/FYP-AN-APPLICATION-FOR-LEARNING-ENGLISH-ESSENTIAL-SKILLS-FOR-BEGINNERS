@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware."
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- For Android 13+ -->
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        android:maxSdkVersion="33" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VIDEO"
+        android:maxSdkVersion="33" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_imageapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_imageapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearning"
+        tools:targetApi="31">
+        <activity
+            android:name=".DBoardVN.TranslateVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.ScoreVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.IntroGrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.InsideVocabularyVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.InsidePronunciationVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.InsideGrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.GrammarPresentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.GrammarPastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.GrammarFutureVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.InsidePronunciationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.TranslateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.PresentSignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.PresentHowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.PresentWhatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.IntroPresentPerProgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.IntroPresentPerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.IntroPresentProgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.InsidePresentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Future.IntroFutureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Past.IntroPastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Present.IntroPresentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.IntroGrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.InsideGrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.GrammarFutureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.GrammarPastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.GrammarPresentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.Vocab2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.InsideVocabularyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.VocabularyVNActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.PronunciationVNActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoardVN.GrammarVNActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.GrammarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.PronunciationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DBoard.VocabularyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminSignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.FavouriteVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.DashBoardVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.ConfirmChangePasswordVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.ChangePasswordVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.ConfirmChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.HomeVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutUpdateInfoVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutSettingVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutPrivacyVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutInformationVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutContactVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VietHomePage.AboutVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutUpdateInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutPrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutSettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.FavouriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.DashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.CreateNewPasswordVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.ForgotPasswordVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.GettingStartVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.SignUpVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.SignInVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.ProfileVnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.Intro3VnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.Intro2VnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Viet.Intro1VnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Survey.ThirdSurveyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Survey.SecondSurveyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Survey.FirstSurveyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ChooseFieldActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.CreateNewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.CongratulationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ProfileActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Login.GettingStartedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lauching.LauchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intro.Intro3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Intro.Intro2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Intro.Intro1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="translate" />
+    </application>
+
+</manifest>

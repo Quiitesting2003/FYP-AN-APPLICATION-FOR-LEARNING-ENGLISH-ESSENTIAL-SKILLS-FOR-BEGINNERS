@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f2ef"
+    tools:context=".Login.GettingStartedActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Let's you in"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/apple_continue"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:src="@drawable/apple_cont" />
+
+        <ImageView
+            android:id="@+id/gg_continue"
+            android:layout_width="270dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gg_cont"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="(Or)"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/sign_in_account"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:src="@drawable/signin_account"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/not_account_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:src="@drawable/no_account" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

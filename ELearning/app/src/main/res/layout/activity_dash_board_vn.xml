@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f2ef"
+    android:padding="5dp"
+    tools:context=".VietHomePage.DashBoardVnActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learning Content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"/>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/vocabulary" />
+
+        <Button
+            android:id="@+id/db_vocab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Từ vựng"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/pronunciation" />
+
+        <Button
+            android:id="@+id/db_pronunciation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Phát âm"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/grammar" />
+
+        <Button
+            android:id="@+id/db_grammar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Ngữ pháp"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/ic_translate" />
+
+        <Button
+            android:id="@+id/db_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Phiên dịch"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/nav_background"
+            android:padding="1dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/about_home"
+                    android:layout_width="37dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    app:srcCompat='@drawable/nav_home_selector' />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Nhà"
+                    android:textSize="9dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/about_dashboard"
+                    android:layout_width="28dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    app:srcCompat="@drawable/nav_dashboard_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Bảng"
+                    android:textSize="9dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/about_fav"
+                    android:layout_width="28dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/nav_fav_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Yêu thích"
+                    android:textSize="9dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/about_about"
+                    android:layout_width="41dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/nav_about_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hồ sơ"
+                    android:textSize="9dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

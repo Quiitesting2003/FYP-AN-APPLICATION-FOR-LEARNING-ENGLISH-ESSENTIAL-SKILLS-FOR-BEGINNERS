@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- res/values/colors.xml -->
+    <color name="button_normal">#FFFFFF</color> <!-- Normal color -->
+    <color name="button_pressed">#CCCCCC</color> <!-- Pressed color -->
+    <color name="button_selected">#66ffff</color> <!-- Pressed color -->
+
+    <color name="normal_color">#FFFFFF</color> <!-- Normal background color -->
+    <color name="pressed_color">#CCCCCC</color> <!-- Pressed background color -->
+    <color name="selected_color">#E0E0E0</color>
+
+    <color name="selected_background">#FFC107</color> <!-- Second Survey -->
+
+    <color name="colorPrimary">#6200EE</color> <!-- Replace with your desired color code -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Optional: darker version for status bar -->
+    <color name="colorAccent">#03DAC5</color> <!-- Optional: accent color for buttons, etc. -->
+
+    <color name="blue">#3485fb</color> <!-- Màu xanh dương -->
+
+    <color name="light_yellow">#f9f2ef</color>
+
+    <color name="colorPrimarys">#7C8DFF</color>
+    <color name="colorPrimaryDarks">#333984</color>
+    <color name="colorAccents">#7C8DFF</color>
+    <color name="colorSecondary">#7C8DFF</color>
+    <color name="colorSecondaryDark">#7C8DFF</color>
+    <color name="offWhite">#f7f6f9</color>
+
+
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Present.PresentHowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Title for the Simple Present Tense Explanation -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Uses of the Simple Present"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Explanation of the Simple Present Uses -->
+        <TextView
+            android:id="@+id/uses_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Habitual Actions: Things people do regularly or frequently.\nExample: I wake up at 7 a.m.\n\n2. General Truths: Facts that are always true or universally accepted.\nExample: Water boils at 100°C.\n\n3. Permanent Situations: Things that don't change over time.\nExample: He works at a bank.\n\n4. Scheduled Events: Things that are set on a timetable.\nExample: The bus leaves at 8:00 a.m."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Grammar Rules Section -->
+        <TextView
+            android:id="@+id/grammar_rules_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Clear Grammar Rules"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Grammar Rules -->
+        <TextView
+            android:id="@+id/positive_sentences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positive Sentences:\n• For most subjects (I, you, we, they): Use the base form of the verb.\nExample: I play tennis every weekend.\n• For he, she, or it: Add -s or -es to the verb.\nExample: She plays tennis every weekend.\n(Note: add -es for verbs ending in -s, -x, -ch, -sh, -o)\nExample: He watches TV every night."
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/negative_sentences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Negative Sentences:\n• Use do not (don’t) for I, you, we, they, and does not (doesn’t) for he, she, it.\nExample: I don’t like vegetables.\nExample: She doesn’t play football."
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions:\n• Start with do (for I, you, we, they) or does (for he, she, it).\nExample: Do you like coffee?\nExample: Does he play the piano?"
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Interactive Section -->
+        <TextView
+            android:id="@+id/interactive_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Interactive Features"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Fill-in-the-Blanks -->
+        <TextView
+            android:id="@+id/fill_in_the_blanks"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="a. Fill-in-the-Blanks:\nShe ___ (eat) breakfast at 7 a.m.\nOptions: eat, eats\nCorrect answer: eats"
+            android:textSize="15sp" />
+
+        <!-- Multiple Choice -->
+        <TextView
+            android:id="@+id/multiple_choice"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="b. Multiple Choice Questions:\nWhich sentence is correct?\nA) I am eat lunch at 12 p.m.\nB) I eat lunch at 12 p.m.\nCorrect answer: B"
+            android:textSize="15sp" />
+
+        <!-- Sentence Transformation -->
+        <TextView
+            android:id="@+id/sentence_transformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c. Sentence Transformation:\n• She works at a hospital. → Does she work at a hospital?\n• They play soccer. → They don’t play soccer."
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Timed Quizzes -->
+        <TextView
+            android:id="@+id/timed_quizzes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d. Timed Quizzes:\nChoose the correct verb form or sentence structure under time pressure."
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/nextPresent"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#0b62f5"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/backPresent"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Continue"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#ff5733"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

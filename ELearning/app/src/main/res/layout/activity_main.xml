@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#f9f2ef"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/vietnam_flag" />
+
+        <Button
+            android:id="@+id/vn_main_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Tiếng Việt"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/button_background"
+        android:padding="22dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Email Icon"
+            android:src="@drawable/usa_flag" />
+
+        <Button
+            android:id="@+id/el_main_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="English"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme, intended for customization. -->
+    <style name="Base.Theme.ELearning" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Example: <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!-- Main theme, inheriting from the base theme. -->
+    <style name="Theme.ELearning" parent="Base.Theme.ELearning">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorPrimaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorSecondaryDark</item>
+
+        <!-- Customize your theme further if needed. -->
+    </style>
+
+</resources>

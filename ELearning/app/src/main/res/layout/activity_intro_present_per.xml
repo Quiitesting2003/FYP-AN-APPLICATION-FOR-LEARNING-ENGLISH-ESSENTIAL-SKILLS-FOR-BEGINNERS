@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Present.IntroPresentPerActivity">
+
+    <TextView
+        android:layout_width="444dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:text="Before we start? \nShall we have quick look.!"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is.?"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <!-- Khung trắng với chữ "Thì Hiện Tại" -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_logo"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="2dp">
+
+        <!-- TextView chứa chữ "Thì Hiện Tại" -->
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Simple Present Perfect"
+            android:textSize="20dp" />
+
+        <!-- Dấu mũi tên xuống -->
+        <ImageView
+            android:id="@+id/arrowPresentPer_one"
+            android:src="@drawable/next_arrow"
+            android:layout_marginLeft="8dp"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_logo"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="2dp">
+
+        <!-- TextView chứa chữ "Thì Hiện Tại" -->
+        <TextView
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="How To Use"
+            android:textSize="20dp" />
+
+        <!-- Dấu mũi tên xuống -->
+        <ImageView
+            android:id="@+id/arrowPresentPer_two"
+            android:src="@drawable/next_arrow"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_logo"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="2dp">
+
+        <!-- TextView chứa chữ "Thì Hiện Tại" -->
+        <TextView
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Tense Recognition Signs"
+            android:textSize="20dp" />
+
+        <!-- Dấu mũi tên xuống -->
+        <ImageView
+            android:id="@+id/arrowPresentPer_three"
+            android:src="@drawable/next_arrow"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/introPresentPer_next"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0b62f5"
+        android:textSize="16dp"/>
+
+</LinearLayout>

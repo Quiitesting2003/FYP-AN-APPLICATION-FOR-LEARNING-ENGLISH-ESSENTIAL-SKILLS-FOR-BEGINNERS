@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f9f2ef"
+    tools:context=".VietHomePage.AboutInformationVnActivity">
+
+    <Button
+        android:id="@+id/info_backvn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0b62f5"
+        android:text="Quay lại"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_avatar_homevn"
+            android:layout_width="139dp"
+            android:layout_height="126dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="45dp"
+            android:src="@drawable/people_icon" />
+
+        <!-- Full Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:layout_marginBottom="23dp">
+
+            <TextView
+                android:id="@+id/tv_full_namevn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Họ và Tên"
+                android:background="@android:color/transparent"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+
+        <!-- Date of Birth -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:layout_marginBottom="23dp">
+
+            <TextView
+                android:id="@+id/tv_date_of_birthvn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Ngày tháng năm sinh"
+                android:background="@android:color/transparent"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                android:focusable="false"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <!-- Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:layout_marginBottom="23dp">
+
+            <TextView
+                android:id="@+id/tv_emailvn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Email"
+                android:background="@android:color/transparent"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <!-- Phone Number -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_background"
+            android:padding="16dp"
+            android:layout_marginBottom="23dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="( +84 )"
+                android:textSize="20dp"
+                android:paddingStart="10dp" />
+
+            <TextView
+                android:id="@+id/tv_phone_numbervn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="123-456-789"
+                android:background="@android:color/transparent"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <!-- Gender -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/input_background"
+            android:padding="20dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/tv_gendervn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Giới tính "
+                android:background="@android:color/transparent"
+                android:paddingStart="10dp"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/info_updatevn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Thay đổi thông tin"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#0b62f5"
+            />
+    </LinearLayout>
+</LinearLayout>

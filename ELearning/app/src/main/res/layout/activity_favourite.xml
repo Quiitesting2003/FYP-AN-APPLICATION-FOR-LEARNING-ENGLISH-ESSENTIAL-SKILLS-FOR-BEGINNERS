@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:background="#f9f2ef"
+    tools:context=".HomePage.FavouriteActivity">
+
+    <!-- Wrap everything inside a LinearLayout as the single child -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="What's your favourite!?"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List of favourite lessons"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif"/>
+
+            <ListView
+                android:id="@+id/fav"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+
+        <!-- Bottom Navigation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bottom_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/nav_background"
+                android:padding="1dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/about_home"
+                        android:layout_width="37dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        app:srcCompat='@drawable/nav_home_selector' />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Home"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/about_dashboard"
+                        android:layout_width="28dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/nav_dashboard_selector" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Dashboard"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/about_fav"
+                        android:layout_width="28dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/nav_fav_selector" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Favourite"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/about_about"
+                        android:layout_width="41dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/nav_about_selector" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="About"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
